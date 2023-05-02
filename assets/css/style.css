@@ -1,0 +1,64 @@
+:root {
+   --accent-color: #F8F32B;
+   --main-color: #2B2D42;
+   --secondary-color: #8D99AE;
+   --tertiary-color: #FFFFFF;
+   --loner-color: #000000;
+}
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: var(--secondary-color);
+}
+/* makes my name font 70px and puts in on own line */
+h1 {
+    font-size: 70px;
+    display: flex;
+    color: var(--loner-color)
+}
+/* makes adjustments to header section */
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    background-color: var(--accent-color);
+    padding: 14px 14px;
+}
+
+nav ul a {
+    color: var(--loner-color);
+    padding-bottom: 10px solid var(--loner-color);
+    padding: 14px 14px;
+    text-decoration: none;
+}
+header {
+    padding: 4%;
+    background-color: var(--main-color);
+    color: var(--tertiary-color);
+  }
+/* makes adjustments to work section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+section {
+    flex: 3;
+    background-color: var(--tertiary-color);
+    padding: 20px;
+  }
+
+h2 {
+    font-size: 50px;
+}
+/*makes adjustments to aside section */
+aside {
+    flex: 1;
+    background-color: var(--main-color);
+    padding: 20px;
+  }
+
+h3 {
+    font-size: 30px;
+}
