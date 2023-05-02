@@ -5,18 +5,15 @@
    --tertiary-color: #FFFFFF;
    --loner-color: #000000;
 }
-* {
-    box-sizing: border-box;
-  }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
 }
 /* makes my name font 70px and puts in on own line */
 h1 {
     font-size: 70px;
-    display: flex;
-    color: var(--loner-color)
+    color: var(--loner-color);
+    background-color: var(--secondary-color);
 }
 /* makes adjustments to header section */
 nav ul {
@@ -28,10 +25,10 @@ nav ul {
 
 nav ul a {
     color: var(--loner-color);
-    padding-bottom: 10px solid var(--loner-color);
     padding: 14px 14px;
     text-decoration: none;
 }
+
 header {
     padding: 4%;
     background-color: var(--main-color);
@@ -41,24 +38,45 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
 section {
-    flex: 3;
-    background-color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
     padding: 20px;
+    border: solid var(--accent-color);
+    justify-content: center;
   }
 
-h2 {
-    font-size: 50px;
-}
 /*makes adjustments to aside section */
 aside {
     flex: 1;
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     padding: 20px;
+    height: auto;
   }
 
-h3 {
-    font-size: 30px;
+h2 {
+    background-color: var(--secondary-color);
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+ main aside div.about {
+  flex-direction: column;
+} 
+
+figure {
+  border: solid var(--accent-color);
+}
+
+.hero {
+  flex-basis: 100%;
+}
+
+.sidekick {
+  flex-basis: 40%;
 }
