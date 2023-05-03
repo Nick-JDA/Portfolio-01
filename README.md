@@ -5,7 +5,7 @@ Portfolio web application
 
 This project is a portfolio web application for potential employers to view. This webpage will allow employers to see my current completed projects that are deployed to guage my skillset and contact me through multiple outlets.
 
-Deployed Application URL: https://nick-jda.github.io/Portfolio-01/ 
+Deployed Application URL: https://nick-jda.github.io/Portfolio-page-Nick-JDA/
 
 ## Screenshot
 
