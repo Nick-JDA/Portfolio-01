@@ -3,8 +3,6 @@ Portfolio web application
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 This project is a portfolio web application for potential employers to view. This webpage will allow employers to see my current completed projects that are deployed to guage my skillset and contact me through multiple outlets.
 
 Deployed Application URL: https://nick-jda.github.io/Portfolio-01/ 
