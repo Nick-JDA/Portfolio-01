@@ -7,6 +7,18 @@ Provide a short description explaining the what, why, and how of your project. U
 
 This project is a portfolio web application for potential employers to view. This webpage will allow employers to see my current completed projects that are deployed to guage my skillset and contact me through multiple outlets.
 
+Deployed Application URL: https://nick-jda.github.io/Portfolio-01/ 
+
+## Screenshot
+
+Desktop Size:
+
+![alt text](./assets/images/nick-jda.github.io_Portfolio-01.png)
+
+Iphone SE Size:
+
+![alt text](./assets/images/nick-jda.github.io_Portfolio-01_(iPhone%20SE).png)
+
 ## Installation
 
 N/A
