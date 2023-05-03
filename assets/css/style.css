@@ -17,12 +17,12 @@ h1 {
     background-color: var(--secondary-color);
     display: inline;
 }
-
+/* makes adjustments to elements in header */
 .avatar {
-  max-width: 50px;
+  max-width: 65px;
   height:auto;
 }
-/* makes adjustments to header section */
+
 nav ul {
     display: inline-flex;
     list-style-type: none;
@@ -88,8 +88,12 @@ h2 {
 
 figure {
   border: solid var(--accent-color);
+  opacity: 0.6;
 }
 
+figure:hover {
+  opacity: 1.0;
+}
 .hero {
   flex-basis: 100%;
 }
